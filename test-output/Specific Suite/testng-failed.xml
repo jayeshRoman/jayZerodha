@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Specific Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Specific Test(failed)">
+    <classes>
+      <class name="TestCases.HardAssertionTest">
+        <methods>
+          <include name="method5"/>
+          <include name="method11"/>
+          <include name="method6"/>
+        </methods>
+      </class> <!-- TestCases.HardAssertionTest -->
+      <class name="TestCases.SoftAssertionTest">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestCases.SoftAssertionTest -->
+    </classes>
+  </test> <!-- Specific Test(failed) -->
+</suite> <!-- Failed suite [Specific Suite] -->
